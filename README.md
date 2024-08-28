@@ -21,9 +21,9 @@ oh-my-posh font install --user
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-*Instalar IDE (VSCode, Eclipse, ou outra)
+*Instalar IDE (VSCode, Eclipse, e outras)
 
-*Instalar linguagem (Python, Node, Java, ou outra)
+*Instalar linguagem (Python, Node, Java, e outras)
 
-*Instalar gerenciador de ferramentas/pacotes/libs (NPM, JDKMan, Maven, Gradle, Chocolatey, ou outra)
+*Instalar gerenciador de ferramentas/pacotes/libs (NPM, SDKMan, Maven, Gradle, Chocolatey, e outras)
 
