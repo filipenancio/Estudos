@@ -1,4 +1,4 @@
-# TechnicalWriting
+# Escrita Técnica (TechnicalWriting)
 Estudo das técnicas para documentação de projetos e especificação de requisitos.
 
 ## DDLC
