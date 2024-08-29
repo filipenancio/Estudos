@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-year = datetime.now().strftime('%Y')
+year = int(datetime.now().strftime('%Y'))
 
 print(year)
 
@@ -28,21 +28,21 @@ for act in setAct:
 
     title = soup.title.text
 
-    rows = []
+    soma = 0.
     for child in soup.find_all('table')[1].children:
-        row = []
         for td in child:
             try:
-                row.append(td.text.replace('\n', ''))
+                arr = td.text.replace('\u202f',' ').replace('%', ' %').split('\n')
+                arr.pop(0)
+                arr.pop(4)
+                y = int(arr[0])
+                if y > (year-5):
+                    #soma += float(arr[1])
+                    print(arr)
             except:
                 continue
-        if len(row) > 0:
-            rows.append(row)
-
-    #df = pd.DataFrame(rows[1:], columns=rows[0])
-
-        
+           
 
 
-    print(rows)
+    
 
