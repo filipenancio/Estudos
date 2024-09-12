@@ -26,4 +26,3 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 *Instalar linguagem (Python, Node, Java, e outras)
 
 *Instalar gerenciador de ferramentas/pacotes/libs (NPM, SDKMan, Maven, Gradle, Chocolatey, e outras)
-
